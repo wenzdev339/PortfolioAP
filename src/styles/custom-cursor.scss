@@ -1,0 +1,35 @@
+// styles/custom-cursor.scss
+@use 'variables' as *;
+
+.custom-cursor {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  border: 1px solid $color-text;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: width 0.3s, height 0.3s, background-color 0.3s, transform 0.1s;
+  
+  &.expanded {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    mix-blend-mode: difference;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-cursor {
+    display: none;
+  }
+  
+  body {
+    cursor: auto;
+  }
+  
+  a, button, input, textarea {
+    cursor: auto;
+  }
+}

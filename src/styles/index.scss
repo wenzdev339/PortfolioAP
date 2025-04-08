@@ -1,0 +1,15 @@
+// styles/index.scss
+@use 'variables' as *;
+@use 'main' as *;
+
+// Import all component styles
+@use 'navigation';
+@use 'hero';
+@use 'about';
+@use 'education'; // Add education styles
+@use 'skills';
+@use 'work';
+@use 'project-card';
+@use 'contact';
+@use 'footer';
+@use 'custom-cursor';
