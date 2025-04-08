@@ -1,5 +1,6 @@
 // styles/education.scss
 @use 'variables' as *;
+@use "sass:color";
 
 .education {
   background-color: $color-white;
@@ -168,7 +169,7 @@
               transition: all 0.3s ease;
               
               &:hover {
-                background-color: darken($color-bg, 3%);
+                background-color: color.adjust($color-bg, $lightness: -3%);
                 transform: translateY(-2px);
               }
             }
