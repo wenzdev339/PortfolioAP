@@ -3,6 +3,24 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import '../styles/work.scss';
 
+// Import images
+import Pro1 from '../assets/Project/Pro1_NSC.jpg';
+import Pro2 from '../assets/Project/Pro2_Doc.png';
+import Pro3 from '../assets/Project/Pro3_Survey.png';
+import Pro4 from '../assets/Project/Pro4.png';
+import Pro5 from '../assets/Project/Pro5.jpg';
+import Pro6 from '../assets/Project/Pro6.png';
+import Pro7 from '../assets/Project/Pro7.jpg';
+import Pro8 from '../assets/Project/Pro8.jpg';
+import Pro9 from '../assets/Project/Pro9.jpg';
+import Pro10 from '../assets/Project/Pro10.jpg';
+import Pro11 from '../assets/Project/Pro11.jpg';
+import Pro12 from '../assets/Project/Pro12.jpg';
+import Pro13 from '../assets/Project/Pro13.jpg';
+import Pro14 from '../assets/Project/Pro14.jpg';
+import Pro15 from '../assets/Project/Pro15.png';
+import Pro16 from '../assets/Project/Pro16.png';
+import Pro17 from '../assets/Project/Pro17.jpg';
 
 const Work = () => {
   const projects = [
@@ -11,7 +29,7 @@ const Work = () => {
       number: '01',
       title: 'Aliment Puzzle Game NSC 2020',
       description: 'I was the programmer and team leader of a science and mathematics puzzle game project, which reached the final round of the Entertainment Program category in NSC 2020.',
-      image: './assets/Project/Pro1_NSC.jpg',
+      image: Pro1,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
       delay: '0.3s'
     },
@@ -20,7 +38,7 @@ const Work = () => {
       number: '02',
       title: 'Doc Guide',
       description: 'Doc Guide is a desktop application developed using Python and the Tkinter UI framework. It serves as a medical consultation tool that compiles information on various symptoms and illnesses, provides up-to-date COVID-19 statistics, and lists emergency contact numbers. The app also features a built-in chatbot for basic medical advice and support.',
-      image: './assets/Project/Pro2_Doc.png',
+      image: Pro2,
       tags: ['Team leader', 'Python', 'Tkinter Framework', 'UI/UX Design'],
       delay: '0.6s',
       reversed: true,
@@ -31,7 +49,7 @@ const Work = () => {
       number: '03',
       title: 'Survey Share - Intern',
       description: 'During my internship at X-TenTech, I worked as a Frontend Developer on an application called "Survey Share." The app was designed to help contractors share project-related data with the development team. I was responsible for building the frontend using Flutter and Dart, and integrating Google Drive API and OAuth for secure file sharing and authentication.',
-      image: './assets/Project/Pro3_Survey.png',
+      image: Pro3,
       tags: ['Frontend', 'Flutter', 'Dart', 'Google Console API', 'Internship'],
       delay: '0.9s'
     },
@@ -40,7 +58,7 @@ const Work = () => {
       number: '04',
       title: 'API Tester Tool With Machine learning - Hackathon',
       description: 'As the Frontend Developer and Team Leader, I led the development of an application designed to test APIs by sending requests to servers and collecting response data. The tool aggregates logs and system resources, which are then analyzed using machine learning models within a data center. The system generates reports and insights, providing users with valuable feedback on API performance and potential issues.',
-      image: './assets/Project/Pro4.png',
+      image: Pro4,
       tags: ['Team leader', 'React Framework', 'Js', 'UI/UX Design', 'Frontend', 'AI Engineer', 'Python', 'Numpy', 'TensorFlow', 'Pitch'],
       delay: '0.6s',
       reversed: true,
@@ -50,7 +68,7 @@ const Work = () => {
       number: '05',
       title: 'Huawei Cloud Accelerator',
       description: 'Integrated Huawei Cloud services into our project as part of the Huawei Cloud Accelerator Program, leveraging cloud infrastructure to enhance scalability, performance, and deployment efficiency. This involved setting up cloud storage, computing resources, and deploying backend services on the Huawei Cloud platform.',
-      image: './assets/Project/Pro5.jpg',
+      image: Pro5,
       tags: ['Huawei Cloud', 'Pitch'],
       delay: '0.9s'
     },
@@ -59,7 +77,7 @@ const Work = () => {
       number: '06',
       title: 'Startup Thailand League 2023',
       description: 'Our game project "Overlap" was selected to participate in the Startup Thailand League, where we pitched the idea and successfully advanced to the Demo Day round held at True Digital Park.',
-      image: './assets/Project/Pro6.png',
+      image: Pro6,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
       delay: '0.6s',
       reversed: true,
@@ -69,7 +87,7 @@ const Work = () => {
       number: '07',
       title: 'ELP Pitch Program',
       description: 'ELP Pitch Program – Game Presentation & International Exchange. Presented the game "Spin Knight" in the ELP Pitch Program and was selected as one of 35 participants for an international exchange at NTUST in Taiwan.',
-      image: './assets/Project/Pro7.jpg',
+      image: Pro7,
       tags: ['ELP', 'Pitch', 'International Exchange', 'Game Development'],
       delay: '0.9s'
     },
@@ -78,7 +96,7 @@ const Work = () => {
       number: '08',
       title: 'Global Talent Entrepreneurship Program – Pitching & Startup Training',
       description: 'Pitched the game project "SpinKnight" as part of the Global Talent Entrepreneurship Program and participated in training sessions on startup business development and investment strategies in Taiwan at National Taiwan University of Science and Technology (NTUST).',
-      image: './assets/Project/Pro8.jpg',
+      image: Pro8,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
       delay: '0.6s',
       reversed: true,
@@ -88,7 +106,7 @@ const Work = () => {
       number: '09',
       title: 'Project Lunar NSC 2024',
       description: 'Participated in the NSC 2024 under the Entertainment Program, presenting the Luna Game Project, which highlights Thai culture, traditional Thai cuisine, and Muay Thai boxing as key themes within the game.',
-      image: './assets/Project/Pro9.jpg',
+      image: Pro9,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
       delay: '0.9s'
     },
@@ -97,7 +115,7 @@ const Work = () => {
       number: '10',
       title: 'P1 - Project Lunar',
       description: 'Participated in the P1 Project, presenting the Luna Game Project, which showcases Thai culture, traditional Thai cuisine, and Muay Thai boxing. I also pitched marketing strategies and assessed the startup viability of the product, highlighting its potential in the market.',
-      image: './assets/Project/Pro10.jpg',
+      image: Pro10,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
       delay: '0.6s',
       reversed: true,
@@ -107,7 +125,7 @@ const Work = () => {
       number: '11',
       title: 'IDEA Pitch Day 1',
       description: 'Participated in the Idea Pitch Day, where I presented the Luna Game Project along with its business plan, showcasing the game concept and its potential for success in the market.',
-      image: './assets/Project/Pro11.jpg',
+      image: Pro11,
       tags: ['Team leader','Pitch'],
       delay: '0.9s'
     },
@@ -116,7 +134,7 @@ const Work = () => {
       number: '12',
       title: 'IDEA Pitch Day 2',
       description: 'Participated in the Idea Pitch Day, where I presented an innovative pet application that analyzes pets health and behavior, integrated with a smart collar that collects data for further analysis. The project aims to provide insights into pets well-being and assist pet owners in better understanding and caring for their animals.',
-      image: './assets/Project/Pro12.jpg',
+      image: Pro12,
       tags: ['Team leader', 'Pitch'],
       delay: '0.6s',
       reversed: true,
@@ -126,7 +144,7 @@ const Work = () => {
       number: '13',
       title: 'Startup Training – Business Strategies for Success',
       description: 'Attended training on various business strategies essential for building a successful startup, including BMC (Business Model Canvas), RoadMap development, and Lean BMC. These sessions provided valuable insights on structuring business plans, optimizing processes, and creating sustainable business models.',
-      image: './assets/Project/Pro13.jpg',
+      image: Pro13,
       tags: ['Team leader','Pitch'],
       delay: '0.9s'
     },
@@ -135,7 +153,7 @@ const Work = () => {
       number: '14',
       title: 'Guest Speaker – Startup Business Knowledge Sharing',
       description: 'Invited as a guest speaker to share startup business insights, including core principles, project experiences, and strategic approaches. I provided guidance and recommendations to students and participants, helping them navigate the challenges of launching and growing their own startups.',
-      image: './assets/Project/Pro14.jpg',
+      image: Pro14,
       tags: ['Guest Speaker','Pitch'],
       delay: '0.6s',
       reversed: true,
@@ -145,7 +163,7 @@ const Work = () => {
       number: '15',
       title: 'My Startup – Game and Software',
       description: 'My startup, https://wenzgame.onrender.com/ , focuses on creating games and software with an emphasis on the indie developer concept. We strive to deliver unique and innovative products, empowering independent creators to bring their visions to life through cutting-edge technology and creative solutions.',
-      image: './assets/Project/Pro15.png',
+      image: Pro15,
       tags: ['Team leader'],
       delay: '0.9s'
     },
@@ -154,7 +172,7 @@ const Work = () => {
       number: '16',
       title: 'LaunchLoop – Minimalist App Launcher',
       description: 'LaunchLoop is a minimalist app launcher that enhances your workflow with a customizable circular menu for quick access to apps and folders. Featuring smooth animations, configurable hotkeys, and a clean interface, it helps you stay organized and boost productivity. Ideal for professionals and creators looking to optimize their Windows experience.',
-      image: './assets/Project/Pro16.png',
+      image: Pro16,
       tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
       delay: '0.6s',
       reversed: true,
@@ -165,7 +183,7 @@ const Work = () => {
       number: '17',
       title: 'Luna Game Project – A Turn-Based Strategy Game Featuring Thai Culture',
       description: 'The Luna Game Project is a turn-based strategy game set in Thailand 2077, blending traditional Thai culture, Muay Thai boxing, and Thai cuisine into an immersive gameplay experience. Players will strategize and engage in combat while exploring a futuristic version of Thailand, highlighting the nations rich heritage and unique cultural elements.',
-      image: './assets/Project/Pro17.jpg',
+      image: Pro17,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
       delay: '0.9s'
     },
