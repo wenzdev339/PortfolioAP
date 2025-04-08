@@ -1,5 +1,6 @@
 // components/Hero.jsx
 import React, { useEffect, useState } from 'react';
+import Profile from '../assets/profile-photo.png';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -7,7 +8,7 @@ const Hero = () => {
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
+  
   return (
     <section id="home" className="hero">
       <div className="hero-container">
@@ -35,8 +36,8 @@ const Hero = () => {
             </div>
           </div>
           
-          <a 
-            href="#work" 
+          <a
+            href="#work"
             className={`cta-button ${isVisible ? 'visible' : ''}`}
           >
             Explore My Projects
@@ -51,7 +52,7 @@ const Hero = () => {
           
           {/* Photo wrapper */}
           <div className="photo-container">
-            <img src="./assets/Project/profile-photo.png" alt="Anatcha Pankean" className="profile-photo" />
+            <img src={Profile} alt="Anatcha Pankean" className="profile-photo" />
           </div>
           
           <div className="circle"></div>
