@@ -51,7 +51,7 @@ const Hero = () => {
           
           {/* Photo wrapper */}
           <div className="photo-container">
-            <img src="\src\assets\profile-photo.png" alt="Anatcha Pankean" className="profile-photo" />
+            <img src="./assets/Project/profile-photo.png" alt="Anatcha Pankean" className="profile-photo" />
           </div>
           
           <div className="circle"></div>
