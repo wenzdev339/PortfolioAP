@@ -192,7 +192,7 @@ const Work = () => {
       id: 18,
       number: '18',
       title: 'ClipBoardPro - Advanced Clipboard Manager',
-      description: 'Transform your productivity with ClipBoardPro, a powerful clipboard manager that tracks your copy history and makes accessing previous clips effortless.',
+      description: 'Transform your productivity with ClipBoardPro, a powerful clipboard manager that tracks your copy history and makes accessing previous clips effortless.\nDownload Free: https://wenzgame.itch.io/clipboard-pro',
       image: Pro18,
       reversed: true,
       tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
