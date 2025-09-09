@@ -187,6 +187,15 @@ const Work = () => {
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
       delay: '0.9s'
     },
+    {
+      id: 18,
+      number: '18',
+      title: 'ClipBoardPro - Advanced Clipboard Manager',
+      description: 'Transform your productivity with ClipBoardPro, a powerful clipboard manager that tracks your copy history and makes accessing previous clips effortless.',
+      image: Pro18,
+      tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
+      delay: '0.9s'
+    },
   ];
 
   return (
