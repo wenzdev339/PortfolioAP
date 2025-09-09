@@ -73,6 +73,13 @@ const Skills = () => {
       level: 3,
       description: 'Intermediate skills in PHP for web development and server-side programming.'
     },
+    { 
+      id: 52, 
+      name: 'TypeScript', 
+      category: 'languages', 
+      level: 3,
+      description: 'Intermediate proficiency in TypeScript for building type-safe JavaScript applications with enhanced developer experience and code quality.'
+    },
     
     // Frameworks and Libraries
     { 
@@ -151,6 +158,13 @@ const Skills = () => {
       category: 'frameworks', 
       level: 5,
       description: 'Expert in Electron framework for building cross-platform desktop applications using web technologies.'
+    },
+    { 
+      id: 53, 
+      name: 'Spring Boot', 
+      category: 'frameworks', 
+      level: 5,
+      description: 'Expert in Spring Boot framework for building enterprise-grade Java applications with microservices architecture, RESTful APIs, and comprehensive backend solutions.'
     },
     
     // Development skills
