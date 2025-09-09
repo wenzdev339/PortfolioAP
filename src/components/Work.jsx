@@ -21,6 +21,7 @@ import Pro14 from '../assets/Project/Pro14.jpg';
 import Pro15 from '../assets/Project/Pro15.png';
 import Pro16 from '../assets/Project/Pro16.png';
 import Pro17 from '../assets/Project/Pro17.jpg';
+import Pro18 from '../assets/Project/Pro18.png';
 
 const Work = () => {
   const projects = [
@@ -193,6 +194,7 @@ const Work = () => {
       title: 'ClipBoardPro - Advanced Clipboard Manager',
       description: 'Transform your productivity with ClipBoardPro, a powerful clipboard manager that tracks your copy history and makes accessing previous clips effortless.',
       image: Pro18,
+      reversed: true,
       tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
       delay: '0.9s'
     },
