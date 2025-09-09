@@ -54,10 +54,10 @@ const Skills = () => {
     },
     { 
       id: 6, 
-      name: 'C', 
+      name: 'Go', 
       category: 'languages', 
       level: 3,
-      description: 'Intermediate proficiency in C programming, including some experience with embedded systems development.'
+      description: 'Intermediate experience with Go programming language for building fast and efficient backend services.'
     },
     { 
       id: 7, 
@@ -124,75 +124,124 @@ const Skills = () => {
       level: 4,
       description: 'Advanced skills in PostgreSQL for database design, optimization, and administration.'
     },
+    { 
+      id: 16, 
+      name: 'MongoDB', 
+      category: 'frameworks', 
+      level: 4,
+      description: 'Advanced skills in MongoDB NoSQL database for document-based data storage and retrieval.'
+    },
+    { 
+      id: 17, 
+      name: 'Oracle', 
+      category: 'frameworks', 
+      level: 3,
+      description: 'Intermediate experience with Oracle database management, PL/SQL, and enterprise database solutions.'
+    },
+    { 
+      id: 18, 
+      name: 'PySpark', 
+      category: 'frameworks', 
+      level: 4,
+      description: 'Advanced proficiency in PySpark for big data processing, distributed computing, and data transformation.'
+    },
+    { 
+      id: 19, 
+      name: 'Electron', 
+      category: 'frameworks', 
+      level: 5,
+      description: 'Expert in Electron framework for building cross-platform desktop applications using web technologies.'
+    },
     
     // Development skills
     { 
-      id: 16, 
+      id: 20, 
       name: 'Unity Engine', 
       category: 'development', 
       level: 5,
       description: 'Expert in Unity game development with extensive experience in building complete game projects and advanced gameplay features.'
     },
     { 
-      id: 17, 
+      id: 21, 
       name: 'Unreal Engine', 
       category: 'development', 
       level: 5,
       description: 'Proficient in Unreal Engine development, including Blueprint visual scripting and C++ implementation for high-quality game projects.'
     },
     { 
-      id: 18, 
+      id: 22, 
       name: 'Frontend Development', 
       category: 'development', 
       level: 4,
       description: 'Advanced skills in HTML, CSS, JavaScript, and modern frameworks for creating responsive and interactive web applications.'
     },
     { 
-      id: 19, 
+      id: 23, 
       name: 'Backend Development', 
       category: 'development', 
       level: 4,
       description: 'Experienced in building robust server-side applications, APIs, and database integrations.'
     },
     { 
-      id: 20, 
+      id: 24, 
       name: 'Mobile Development', 
       category: 'development', 
       level: 5,
       description: 'Expert in cross-platform and native mobile application development using Flutter, Dart, and Java.'
     },
     { 
-      id: 21, 
-      name: 'Embedded Systems', 
+      id: 25, 
+      name: 'Go Fiber', 
       category: 'development', 
       level: 3,
-      description: 'Intermediate experience with embedded systems development using C programming and microcontroller platforms.'
+      description: 'Intermediate experience with Go Fiber web framework for building fast and scalable REST APIs and web applications in Go.'
+    },
+    { 
+      id: 26, 
+      name: 'Business Intelligence (BI)', 
+      category: 'development', 
+      level: 5,
+      description: 'Expert in business intelligence solutions, data warehouse design, ETL/ELT processes, and strategic data analytics.'
+    },
+    { 
+      id: 27, 
+      name: 'Business Analysis (BA)', 
+      category: 'development', 
+      level: 4,
+      description: 'Advanced skills in business analysis, requirements gathering, process improvement, and stakeholder management.'
+    },
+    { 
+      id: 28, 
+      name: 'Data Analytics (DA)', 
+      category: 'development', 
+      level: 4,
+      description: 'Advanced proficiency in data analytics, statistical analysis, data visualization, and insight generation from complex datasets.'
     },
     
     // Design skills
     { 
-      id: 22, 
+      id: 29, 
       name: 'Figma', 
       category: 'design', 
       level: 5,
       description: 'Expert in using Figma for UI/UX design, wireframing, prototyping, and collaborative design workflows.'
     },
     { 
-      id: 23, 
+      id: 30, 
       name: 'Adobe Creative Suite', 
       category: 'design', 
       level: 5,
       description: 'Advanced proficiency in Adobe Photoshop, Illustrator, XD, and other Creative Suite applications for digital design and asset creation.'
     },
     { 
-      id: 24, 
+      id: 31, 
       name: 'UI/UX Design', 
       category: 'design', 
       level: 4,
       description: 'Strong understanding of user-centered design principles with the ability to create intuitive, accessible, and visually appealing interfaces.'
     },
     { 
-      id: 25, 
+      id: 32, 
       name: 'Game Design', 
       category: 'design', 
       level: 5,
@@ -201,28 +250,84 @@ const Skills = () => {
     
     // Tools & Software skills
     { 
-      id: 26, 
-      name: 'GitHub', 
+      id: 33, 
+      name: 'Power BI & Tableau', 
       category: 'tools', 
       level: 5,
-      description: 'Expert with GitHub for version control, collaborative development, CI/CD workflows, and project management.'
+      description: 'Expert in data visualization, data warehouse design, ETL/ELT processes, creating interactive dashboards and comprehensive business intelligence solutions using Power BI and Tableau.'
     },
     { 
-      id: 27, 
+      id: 34, 
+      name: 'Git, GitHub, GitLab, BitBucket', 
+      category: 'tools', 
+      level: 5,
+      description: 'Expert with version control systems and collaborative development platforms including Git, GitHub, GitLab, and BitBucket.'
+    },
+    { 
+      id: 35, 
+      name: 'Docker', 
+      category: 'tools', 
+      level: 4,
+      description: 'Advanced skills in containerization with Docker for application deployment, environment management, and DevOps workflows.'
+    },
+    { 
+      id: 36, 
+      name: 'Kubernetes (K8s)', 
+      category: 'tools', 
+      level: 3,
+      description: 'Intermediate experience with Kubernetes for container orchestration, scaling, and managing distributed applications.'
+    },
+    { 
+      id: 37, 
+      name: 'AWS', 
+      category: 'tools', 
+      level: 3,
+      description: 'Intermediate proficiency with Amazon Web Services cloud platform for scalable infrastructure and application deployment.'
+    },
+    { 
+      id: 38, 
+      name: 'Google Cloud Platform', 
+      category: 'tools', 
+      level: 4,
+      description: 'Advanced experience with Google Cloud services for cloud computing, data analytics, and application hosting.'
+    },
+    { 
+      id: 39, 
+      name: 'Firebase', 
+      category: 'tools', 
+      level: 5,
+      description: 'Expert in Firebase platform for mobile and web application backend services, real-time databases, and authentication.'
+    },
+    { 
+      id: 40, 
+      name: 'Microsoft Azure', 
+      category: 'tools', 
+      level: 3,
+      description: 'Intermediate skills with Microsoft Azure cloud services for enterprise applications and data solutions.'
+    },
+    { 
+      id: 41, 
+      name: 'Nginx & Gunicorn', 
+      category: 'tools', 
+      level: 3,
+      description: 'Intermediate experience with web server configuration using Nginx and WSGI server deployment with Gunicorn.'
+    },
+    { 
+      id: 42, 
       name: 'Notion', 
       category: 'tools', 
       level: 5,
       description: 'Advanced usage of Notion for documentation, knowledge bases, project planning, and team collaboration.'
     },
     { 
-      id: 28, 
+      id: 43, 
       name: 'Jira', 
       category: 'tools', 
       level: 5,
       description: 'Expert in Jira for agile project management, issue tracking, sprint planning, and team workflow optimization.'
     },
     { 
-      id: 29, 
+      id: 44, 
       name: 'VS Code', 
       category: 'tools', 
       level: 4,
@@ -231,21 +336,21 @@ const Skills = () => {
     
     // Management skills
     { 
-      id: 30, 
+      id: 47, 
       name: 'Project Management', 
       category: 'management', 
       level: 4,
       description: 'Experienced in leading development teams, setting milestones, and delivering projects on schedule.'
     },
     { 
-      id: 31, 
-      name: 'Agile Methodologies', 
+      id: 48, 
+      name: 'Agile & Scrum', 
       category: 'management', 
-      level: 4,
-      description: 'Well-versed in Scrum and Kanban methodologies, sprint planning, and iterative development approaches.'
+      level: 5,
+      description: 'Expert in Agile and Scrum methodologies, sprint planning, daily standups, retrospectives, and iterative development approaches.'
     },
     { 
-      id: 32, 
+      id: 49, 
       name: 'Team Leadership', 
       category: 'management', 
       level: 4,
@@ -254,14 +359,14 @@ const Skills = () => {
     
     // Languages (spoken)
     { 
-      id: 33, 
+      id: 50, 
       name: 'English', 
       category: 'languages-spoken', 
-      level: 4,
-      description: 'Advanced business English skills for professional communication, technical documentation, and international collaboration.'
+      level: 3,
+      description: 'Advanced business English skills for communication, technical documentation, and international collaboration.'
     },
     { 
-      id: 34, 
+      id: 51, 
       name: 'Thai', 
       category: 'languages-spoken', 
       level: 5,
