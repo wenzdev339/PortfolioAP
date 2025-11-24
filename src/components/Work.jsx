@@ -23,6 +23,7 @@ import Pro16 from '../assets/Project/Pro16.png';
 import Pro17 from '../assets/Project/Pro17.png';
 import Pro18 from '../assets/Project/Pro18.png';
 import Pro19 from '../assets/Project/Pro19.png';
+import Pro20 from '../assets/Project/Pro20.png';
 
 const Work = () => {
   const projects = [
@@ -193,10 +194,10 @@ const Work = () => {
       id: 18,
       number: '18',
       title: '1 Ronin vs 1,000 Samurai - 20 Second Game Jam 2025',
-      description: '20 Second Game Jam 2025 Coming Soon!',
+      description: 'Step into the sandals of a legendary ronin who left the battlefield behind… until the afterlife calls. A mysterious deity offers you a deal: defeat 1,000 samurai in 20 seconds, or your time ends. \n Free to Play: https://wenzgame.itch.io/1-ronin-vs-1000-samurai',
       image: Pro18,
       reversed: true,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','Pixel Art'],
       delay: '0.9s'
     },
     {
@@ -206,7 +207,17 @@ const Work = () => {
       description: 'SpinKnight is a challenging 2.5D platformer game where players control a spinning knight to overcome tricky obstacles, precise jumps, and intense action in a stylized isometric world.',
       image: Pro19,
       reversed: false,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','Pixel Art'],
+      delay: '0.9s'
+    },
+    {
+      id: 20,
+      number: '20',
+      title: 'Tanuki Boba Tea! - 20 Second Game Jam 2025',
+      description: 'Coming Soon! on 20 Second Game Jam 2025!',
+      image: Pro20,
+      reversed: false,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','2D Art'],
       delay: '0.9s'
     },
   ];
