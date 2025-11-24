@@ -216,7 +216,7 @@ const Work = () => {
       title: 'Tanuki Boba Tea! - 20 Second Game Jam 2025',
       description: 'Coming Soon! on 20 Second Game Jam 2025!',
       image: Pro20,
-      reversed: false,
+      reversed: true,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','2D Art'],
       delay: '0.9s'
     },
