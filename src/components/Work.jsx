@@ -213,11 +213,11 @@ const Work = () => {
     {
       id: 20,
       number: '20',
-      title: 'Tanuki Boba Tea! - 20 Second Game Jam 2025',
-      description: 'Coming Soon! on 20 Second Game Jam 2025!',
+      title: 'Boba Tanuki - 20 Second Game Jam 2025',
+      description: 'Boba Tanuki was created for the 20sec Game Jam 2025.The game includes two modes: Classic, a 60-second chill endless mode,and 20sec, where you try to get the highest score within 20 seconds.The game is free to play and available on itch.Play the game for free here : https://wenzgame.itch.io/boba-tanuki',
       image: Pro20,
       reversed: true,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','2D Art'],
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
       delay: '0.9s'
     },
   ];
