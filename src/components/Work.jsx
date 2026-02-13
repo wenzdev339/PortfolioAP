@@ -24,6 +24,7 @@ import Pro17 from '../assets/Project/Pro17.png';
 import Pro18 from '../assets/Project/Pro18.png';
 import Pro19 from '../assets/Project/Pro19.png';
 import Pro20 from '../assets/Project/Pro20.png';
+import Pro21 from '../assets/Project/Pro21.png';
 
 const Work = () => {
   const projects = [
@@ -218,6 +219,16 @@ const Work = () => {
       image: Pro20,
       reversed: true,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      delay: '0.9s'
+    },
+    {
+      id: 21,
+      number: '21',
+      title: 'Brazilian E-Commerce Sales Analysis SQL Project',
+      description: 'End-to-end SQL analysis of 100K+ orders from a Brazilian e-commerce platform, covering revenue trends, customer segmentation, delivery performance, and review insights.\n GitHub Repository: https://github.com/wenzdev339/BrazilianEcommerceAnalysis',
+      image: Pro21,
+      reversed: false,
+      tags: ['SQL','PostgreSQL','Data Analysis'],
       delay: '0.9s'
     },
   ];
