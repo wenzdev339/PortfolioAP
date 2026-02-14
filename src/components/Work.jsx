@@ -236,10 +236,10 @@ const Work = () => {
       id: 22,
       number: '22',
       title: 'Hotel Booking Performance Analysis Visualization SQL Project',
-      description: 'Boba Tanuki was created for the 20sec Game Jam 2025.The game includes two modes: Classic, a 60-second chill endless mode,and 20sec, where you try to get the highest score within 20 seconds.The game is free to play and available on itch.Play the game for free here : https://wenzgame.itch.io/boba-tanuki',
+      description: 'Analyzed 119K+ hotel bookings to uncover cancellation drivers, pricing seasonality, and revenue impact using PostgreSQL Star Schema and Power BI.\n GitHub Repository: https://github.com/wenzdev339/HotelBookingPerformanceAnalytics',
       image: Pro22,
       reversed: true,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      tags: ['SQL','PostgreSQL','Data Analysis'],
       delay: '0.9s'
     },
   ];
