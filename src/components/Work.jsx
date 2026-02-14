@@ -25,6 +25,7 @@ import Pro18 from '../assets/Project/Pro18.png';
 import Pro19 from '../assets/Project/Pro19.png';
 import Pro20 from '../assets/Project/Pro20.png';
 import Pro21 from '../assets/Project/Pro21.png';
+import Pro22 from '../assets/Project/Pro22.png';
 
 const Work = () => {
   const projects = [
@@ -229,6 +230,16 @@ const Work = () => {
       image: Pro21,
       reversed: false,
       tags: ['SQL','PostgreSQL','Data Analysis'],
+      delay: '0.9s'
+    },
+    {
+      id: 22,
+      number: '22',
+      title: 'Hotel Booking Performance Analysis Visualization SQL Project',
+      description: 'Boba Tanuki was created for the 20sec Game Jam 2025.The game includes two modes: Classic, a 60-second chill endless mode,and 20sec, where you try to get the highest score within 20 seconds.The game is free to play and available on itch.Play the game for free here : https://wenzgame.itch.io/boba-tanuki',
+      image: Pro20,
+      reversed: true,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
       delay: '0.9s'
     },
   ];
