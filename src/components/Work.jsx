@@ -224,7 +224,7 @@ const Work = () => {
     {
       id: 21,
       number: '21',
-      title: 'Brazilian E-Commerce Sales Analysis SQL Project',
+      title: 'Brazilian E-Commerce Sales Analysis Visualization SQL Project',
       description: 'End-to-end SQL analysis of 100K+ orders from a Brazilian e-commerce platform, covering revenue trends, customer segmentation, delivery performance, and review insights.\n GitHub Repository: https://github.com/wenzdev339/BrazilianEcommerceAnalysis',
       image: Pro21,
       reversed: false,
