@@ -1,5 +1,4 @@
 // styles/main.scss
-@forward 'variables';
 @use 'variables' as *;
 
 // Reset
@@ -20,7 +19,7 @@ body {
   color: $color-text;
   background-color: $color-bg;
   overflow-x: hidden;
-  cursor: none; // Hide default cursor when using custom cursor
+  cursor: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,13 +70,13 @@ img {
 }
 
 @keyframes fadeIn {
-  from { 
-    opacity: 0; 
-    transform: translateY(20px); 
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
