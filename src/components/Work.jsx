@@ -18,10 +18,14 @@ import Pro11 from '../assets/Project/Pro11.jpg';
 import Pro12 from '../assets/Project/Pro12.jpg';
 import Pro13 from '../assets/Project/Pro13.jpg';
 import Pro14 from '../assets/Project/Pro14.jpg';
-import Pro15 from '../assets/Project/Pro15.png';
+import Pro15 from '../assets/Project/Pro15.jpg';
 import Pro16 from '../assets/Project/Pro16.png';
-import Pro17 from '../assets/Project/Pro17.jpg';
+import Pro17 from '../assets/Project/Pro17.png';
 import Pro18 from '../assets/Project/Pro18.png';
+import Pro19 from '../assets/Project/Pro19.png';
+import Pro20 from '../assets/Project/Pro20.png';
+import Pro21 from '../assets/Project/Pro21.png';
+import Pro22 from '../assets/Project/Pro22.png';
 
 const Work = () => {
   const projects = [
@@ -162,40 +166,80 @@ const Work = () => {
     {
       id: 15,
       number: '15',
-      title: 'My Startup – Game and Software',
-      description: 'My startup, https://wenzgame.onrender.com/ , focuses on creating games and software with an emphasis on the indie developer concept. We strive to deliver unique and innovative products, empowering independent creators to bring their visions to life through cutting-edge technology and creative solutions.',
+      title: 'Luna Game Project – A Turn-Based Strategy Game Featuring Thai Culture',
+      description: 'The Luna Game Project is a turn-based strategy game set in Thailand 2077, blending traditional Thai culture, Muay Thai boxing, and Thai cuisine into an immersive gameplay experience. Players will strategize and engage in combat while exploring a futuristic version of Thailand, highlighting the nations rich heritage and unique cultural elements.',
       image: Pro15,
-      tags: ['Team leader'],
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
       delay: '0.9s'
     },
     {
       id: 16,
       number: '16',
-      title: 'LaunchLoop – Minimalist App Launcher',
-      description: 'LaunchLoop is a minimalist app launcher that enhances your workflow with a customizable circular menu for quick access to apps and folders. Featuring smooth animations, configurable hotkeys, and a clean interface, it helps you stay organized and boost productivity. Ideal for professionals and creators looking to optimize their Windows experience.',
+      title: 'ClipBoardPro - Advanced Clipboard Manager',
+      description: 'Transform your productivity with ClipBoardPro, a powerful clipboard manager that tracks your copy history and makes accessing previous clips effortless.\nDownload Free: https://github.com/wenzdev339/ClipBoardPro/',
       image: Pro16,
-      tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
-      delay: '0.6s',
       reversed: true,
-      youtubeLink: 'https://www.youtube.com/watch?v=vC_2NO7Pvz8'
+      tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
+      delay: '0.9s'
     },
     {
       id: 17,
       number: '17',
-      title: 'Luna Game Project – A Turn-Based Strategy Game Featuring Thai Culture',
-      description: 'The Luna Game Project is a turn-based strategy game set in Thailand 2077, blending traditional Thai culture, Muay Thai boxing, and Thai cuisine into an immersive gameplay experience. Players will strategize and engage in combat while exploring a futuristic version of Thailand, highlighting the nations rich heritage and unique cultural elements.',
+      title: 'Phantom Drive - Thailand Horror Jam 2025 ',
+      description: 'Phantom Drive is a horror delivery-driving game created for Thailand Horror Jam 2025. Players take on the role of a delivery driver traveling from pickup to drop-off points along eerie, haunted roads.',
       image: Pro17,
+      reversed: false,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
       delay: '0.9s'
     },
     {
       id: 18,
       number: '18',
-      title: 'ClipBoardPro - Advanced Clipboard Manager',
-      description: 'Transform your productivity with ClipBoardPro, a powerful clipboard manager that tracks your copy history and makes accessing previous clips effortless.\nDownload Free: https://wenzgame.itch.io/clipboard-pro',
+      title: '1 Ronin vs 1,000 Samurai - 20 Second Game Jam 2025',
+      description: 'Step into the sandals of a legendary ronin who left the battlefield behind… until the afterlife calls. A mysterious deity offers you a deal: defeat 1,000 samurai in 20 seconds, or your time ends. \n Free to Play: https://wenzgame.itch.io/1-ronin-vs-1000-samurai',
       image: Pro18,
       reversed: true,
-      tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','Pixel Art'],
+      delay: '0.9s'
+    },
+    {
+      id: 19,
+      number: '19',
+      title: 'SpinKnight - Thailand Game Talent Showcase 2025',
+      description: 'SpinKnight is a challenging 2.5D platformer game where players control a spinning knight to overcome tricky obstacles, precise jumps, and intense action in a stylized isometric world.',
+      image: Pro19,
+      reversed: false,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','Pixel Art'],
+      delay: '0.9s'
+    },
+    {
+      id: 20,
+      number: '20',
+      title: 'Boba Tanuki - 20 Second Game Jam 2025',
+      description: 'Boba Tanuki was created for the 20sec Game Jam 2025.The game includes two modes: Classic, a 60-second chill endless mode,and 20sec, where you try to get the highest score within 20 seconds.The game is free to play and available on itch.Play the game for free here : https://wenzgame.itch.io/boba-tanuki',
+      image: Pro20,
+      reversed: true,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      delay: '0.9s'
+    },
+    {
+      id: 21,
+      number: '21',
+      title: 'Brazilian E-Commerce Sales Analysis Visualization SQL Project',
+      description: 'End-to-end SQL analysis of 100K+ orders from a Brazilian e-commerce platform, covering revenue trends, customer segmentation, delivery performance, and review insights.\n GitHub Repository: https://github.com/wenzdev339/BrazilianEcommerceAnalysis',
+      image: Pro21,
+      reversed: false,
+      tags: ['SQL','PostgreSQL','Data Analysis'],
+      delay: '0.9s'
+    },
+    {
+      id: 22,
+      number: '22',
+      title: 'Hotel Booking Performance Analysis Visualization SQL Project',
+      description: 'Analyzed 119K+ hotel bookings to uncover cancellation drivers, pricing seasonality, and revenue impact using PostgreSQL Star Schema and Power BI.\n GitHub Repository: https://github.com/wenzdev339/HotelBookingPerformanceAnalytics',
+      image: Pro22,
+      reversed: true,
+      tags: ['SQL','PostgreSQL','Data Analysis'],
       delay: '0.9s'
     },
   ];
