@@ -1,5 +1,5 @@
 // components/Work.jsx
-import React from 'react';
+import { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import '../styles/work.scss';
 
@@ -22,239 +22,238 @@ import Pro15 from '../assets/Project/Pro15.jpg';
 import Pro16 from '../assets/Project/Pro16.png';
 import Pro17 from '../assets/Project/Pro17.png';
 import Pro18 from '../assets/Project/Pro18.png';
-import Pro19 from '../assets/Project/Pro19.png';
 import Pro20 from '../assets/Project/Pro20.png';
 import Pro21 from '../assets/Project/Pro21.png';
 import Pro22 from '../assets/Project/Pro22.png';
 
+const CATEGORIES = [
+  { key: 'all', label: 'All' },
+  { key: 'game', label: 'Game Dev' },
+  { key: 'dev', label: 'Development' },
+  { key: 'data', label: 'Data Analysis' },
+  { key: 'event', label: 'Events & Pitch' },
+];
+
 const Work = () => {
+  const [activeCategory, setActiveCategory] = useState('all');
+
   const projects = [
     {
-      id: 1,
-      number: '01',
-      title: 'Aliment Puzzle Game NSC 2020',
-      description: 'I was the programmer and team leader of a science and mathematics puzzle game project, which reached the final round of the Entertainment Program category in NSC 2020.',
-      image: Pro1,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
-      delay: '0.3s'
-    },
-    {
-      id: 2,
-      number: '02',
-      title: 'Doc Guide',
-      description: 'Doc Guide is a desktop application developed using Python and the Tkinter UI framework. It serves as a medical consultation tool that compiles information on various symptoms and illnesses, provides up-to-date COVID-19 statistics, and lists emergency contact numbers. The app also features a built-in chatbot for basic medical advice and support.',
-      image: Pro2,
-      tags: ['Team leader', 'Python', 'Tkinter Framework', 'UI/UX Design'],
-      delay: '0.6s',
-      reversed: true,
-      youtubeLink: 'https://www.youtube.com/watch?v=rXCWabBDZfo'
-    },
-    {
-      id: 3,
-      number: '03',
-      title: 'Survey Share - Intern',
-      description: 'During my internship at X-TenTech, I worked as a Frontend Developer on an application called "Survey Share." The app was designed to help contractors share project-related data with the development team. I was responsible for building the frontend using Flutter and Dart, and integrating Google Drive API and OAuth for secure file sharing and authentication.',
-      image: Pro3,
-      tags: ['Frontend', 'Flutter', 'Dart', 'Google Console API', 'Internship'],
-      delay: '0.9s'
-    },
-    {
-      id: 4,
-      number: '04',
-      title: 'API Tester Tool With Machine learning - Hackathon',
-      description: 'As the Frontend Developer and Team Leader, I led the development of an application designed to test APIs by sending requests to servers and collecting response data. The tool aggregates logs and system resources, which are then analyzed using machine learning models within a data center. The system generates reports and insights, providing users with valuable feedback on API performance and potential issues.',
-      image: Pro4,
-      tags: ['Team leader', 'React Framework', 'Js', 'UI/UX Design', 'Frontend', 'AI Engineer', 'Python', 'Numpy', 'TensorFlow', 'Pitch'],
-      delay: '0.6s',
-      reversed: true,
-    },
-    {
-      id: 5,
-      number: '05',
-      title: 'Huawei Cloud Accelerator',
-      description: 'Integrated Huawei Cloud services into our project as part of the Huawei Cloud Accelerator Program, leveraging cloud infrastructure to enhance scalability, performance, and deployment efficiency. This involved setting up cloud storage, computing resources, and deploying backend services on the Huawei Cloud platform.',
-      image: Pro5,
-      tags: ['Huawei Cloud', 'Pitch'],
-      delay: '0.9s'
-    },
-    {
-      id: 6,
-      number: '06',
-      title: 'Startup Thailand League 2023',
-      description: 'Our game project "Overlap" was selected to participate in the Startup Thailand League, where we pitched the idea and successfully advanced to the Demo Day round held at True Digital Park.',
-      image: Pro6,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
-      delay: '0.6s',
-      reversed: true,
-    },
-    {
-      id: 7,
-      number: '07',
-      title: 'ELP Pitch Program',
-      description: 'ELP Pitch Program – Game Presentation & International Exchange. Presented the game "Spin Knight" in the ELP Pitch Program and was selected as one of 35 participants for an international exchange at NTUST in Taiwan.',
-      image: Pro7,
-      tags: ['ELP', 'Pitch', 'International Exchange', 'Game Development'],
-      delay: '0.9s'
-    },
-    {
-      id: 8,
-      number: '08',
-      title: 'Global Talent Entrepreneurship Program – Pitching & Startup Training',
-      description: 'Pitched the game project "SpinKnight" as part of the Global Talent Entrepreneurship Program and participated in training sessions on startup business development and investment strategies in Taiwan at National Taiwan University of Science and Technology (NTUST).',
-      image: Pro8,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
-      delay: '0.6s',
-      reversed: true,
-    },
-    {
-      id: 9,
-      number: '09',
-      title: 'Project Lunar NSC 2024',
-      description: 'Participated in the NSC 2024 under the Entertainment Program, presenting the Luna Game Project, which highlights Thai culture, traditional Thai cuisine, and Muay Thai boxing as key themes within the game.',
-      image: Pro9,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
-      delay: '0.9s'
-    },
-    {
-      id: 10,
-      number: '10',
-      title: 'P1 - Project Lunar',
-      description: 'Participated in the P1 Project, presenting the Luna Game Project, which showcases Thai culture, traditional Thai cuisine, and Muay Thai boxing. I also pitched marketing strategies and assessed the startup viability of the product, highlighting its potential in the market.',
-      image: Pro10,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
-      delay: '0.6s',
-      reversed: true,
-    },    
-    {
-      id: 11,
-      number: '11',
-      title: 'IDEA Pitch Day 1',
-      description: 'Participated in the Idea Pitch Day, where I presented the Luna Game Project along with its business plan, showcasing the game concept and its potential for success in the market.',
-      image: Pro11,
-      tags: ['Team leader','Pitch'],
-      delay: '0.9s'
-    },
-    {
-      id: 12,
-      number: '12',
-      title: 'IDEA Pitch Day 2',
-      description: 'Participated in the Idea Pitch Day, where I presented an innovative pet application that analyzes pets health and behavior, integrated with a smart collar that collects data for further analysis. The project aims to provide insights into pets well-being and assist pet owners in better understanding and caring for their animals.',
-      image: Pro12,
-      tags: ['Team leader', 'Pitch'],
-      delay: '0.6s',
-      reversed: true,
-    },    
-    {
-      id: 13,
-      number: '13',
-      title: 'Startup Training – Business Strategies for Success',
-      description: 'Attended training on various business strategies essential for building a successful startup, including BMC (Business Model Canvas), RoadMap development, and Lean BMC. These sessions provided valuable insights on structuring business plans, optimizing processes, and creating sustainable business models.',
-      image: Pro13,
-      tags: ['Team leader','Pitch'],
-      delay: '0.9s'
-    },
-    {
-      id: 14,
-      number: '14',
-      title: 'Guest Speaker – Startup Business Knowledge Sharing',
-      description: 'Invited as a guest speaker to share startup business insights, including core principles, project experiences, and strategic approaches. I provided guidance and recommendations to students and participants, helping them navigate the challenges of launching and growing their own startups.',
-      image: Pro14,
-      tags: ['Guest Speaker','Pitch'],
-      delay: '0.6s',
-      reversed: true,
-    },
-    {
-      id: 15,
-      number: '15',
-      title: 'Luna Game Project – A Turn-Based Strategy Game Featuring Thai Culture',
-      description: 'The Luna Game Project is a turn-based strategy game set in Thailand 2077, blending traditional Thai culture, Muay Thai boxing, and Thai cuisine into an immersive gameplay experience. Players will strategize and engage in combat while exploring a futuristic version of Thailand, highlighting the nations rich heritage and unique cultural elements.',
-      image: Pro15,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
-      delay: '0.9s'
-    },
-    {
-      id: 16,
-      number: '16',
-      title: 'ClipBoardPro - Advanced Clipboard Manager',
-      description: 'Transform your productivity with ClipBoardPro, a powerful clipboard manager that tracks your copy history and makes accessing previous clips effortless.\nDownload Free: https://github.com/wenzdev339/ClipBoardPro/',
-      image: Pro16,
-      reversed: true,
-      tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js','Dev Ops'],
-      delay: '0.9s'
-    },
-    {
-      id: 17,
-      number: '17',
-      title: 'Phantom Drive - Thailand Horror Jam 2025 ',
-      description: 'Phantom Drive is a horror delivery-driving game created for Thailand Horror Jam 2025. Players take on the role of a delivery driver traveling from pickup to drop-off points along eerie, haunted roads.',
-      image: Pro17,
-      reversed: false,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
-      delay: '0.9s'
-    },
-    {
-      id: 18,
-      number: '18',
-      title: '1 Ronin vs 1,000 Samurai - 20 Second Game Jam 2025',
-      description: 'Step into the sandals of a legendary ronin who left the battlefield behind… until the afterlife calls. A mysterious deity offers you a deal: defeat 1,000 samurai in 20 seconds, or your time ends. \n Free to Play: https://wenzgame.itch.io/1-ronin-vs-1000-samurai',
-      image: Pro18,
-      reversed: true,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','Pixel Art'],
-      delay: '0.9s'
-    },
-    {
-      id: 19,
-      number: '19',
-      title: 'SpinKnight - Thailand Game Talent Showcase 2025',
-      description: 'SpinKnight is a challenging 2.5D platformer game where players control a spinning knight to overcome tricky obstacles, precise jumps, and intense action in a stylized isometric world.',
-      image: Pro19,
-      reversed: false,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design','Pixel Art'],
-      delay: '0.9s'
-    },
-    {
-      id: 20,
-      number: '20',
-      title: 'Boba Tanuki - 20 Second Game Jam 2025',
-      description: 'Boba Tanuki was created for the 20sec Game Jam 2025.The game includes two modes: Classic, a 60-second chill endless mode,and 20sec, where you try to get the highest score within 20 seconds.The game is free to play and available on itch.Play the game for free here : https://wenzgame.itch.io/boba-tanuki',
-      image: Pro20,
-      reversed: true,
-      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
-      delay: '0.9s'
-    },
-    {
       id: 21,
-      number: '21',
-      title: 'Brazilian E-Commerce Sales Analysis Visualization SQL Project',
-      description: 'End-to-end SQL analysis of 100K+ orders from a Brazilian e-commerce platform, covering revenue trends, customer segmentation, delivery performance, and review insights.\n GitHub Repository: https://github.com/wenzdev339/BrazilianEcommerceAnalysis',
+      number: '01',
+      title: 'Brazilian E-Commerce Sales Analysis',
+      description: 'End-to-end SQL analysis of 100K+ orders covering revenue trends, customer segmentation, delivery performance, and review insights.',
       image: Pro21,
-      reversed: false,
-      tags: ['SQL','PostgreSQL','Data Analysis'],
-      delay: '0.9s'
+      tags: ['SQL', 'PostgreSQL', 'Data Analysis'],
+      category: 'data',
     },
     {
       id: 22,
-      number: '22',
-      title: 'Hotel Booking Performance Analysis Visualization SQL Project',
-      description: 'Analyzed 119K+ hotel bookings to uncover cancellation drivers, pricing seasonality, and revenue impact using PostgreSQL Star Schema and Power BI.\n GitHub Repository: https://github.com/wenzdev339/HotelBookingPerformanceAnalytics',
+      number: '02',
+      title: 'Hotel Booking Performance Analysis',
+      description: 'Analyzed 119K+ hotel bookings to uncover cancellation drivers, pricing seasonality, and revenue impact using PostgreSQL & Power BI.',
       image: Pro22,
-      reversed: true,
-      tags: ['SQL','PostgreSQL','Data Analysis'],
-      delay: '0.9s'
+      tags: ['SQL', 'PostgreSQL', 'Data Analysis', 'Power BI'],
+      category: 'data',
+    },
+    {
+      id: 1,
+      number: '03',
+      title: 'Aliment Puzzle Game — NSC 2020',
+      description: 'Science & math puzzle game that reached the final round of the Entertainment Program in NSC 2020.',
+      image: Pro1,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
+      category: 'game',
+    },
+    {
+      id: 2,
+      number: '04',
+      title: 'Doc Guide',
+      description: 'Desktop medical consultation app built with Python/Tkinter. Covers symptoms, COVID-19 stats, emergency contacts, and a built-in chatbot.',
+      image: Pro2,
+      tags: ['Team leader', 'Python', 'Tkinter Framework', 'UI/UX Design'],
+      category: 'dev',
+      youtubeLink: 'https://www.youtube.com/watch?v=rXCWabBDZfo',
+    },
+    {
+      id: 3,
+      number: '05',
+      title: 'Survey Share — Internship',
+      description: 'Frontend built with Flutter/Dart during internship at X-TenTech. Integrated Google Drive API & OAuth for secure file sharing.',
+      image: Pro3,
+      tags: ['Frontend', 'Flutter', 'Dart', 'Google Console API', 'Internship'],
+      category: 'dev',
+    },
+    {
+      id: 4,
+      number: '06',
+      title: 'API Tester Tool with ML — Hackathon',
+      description: 'Full-stack tool that tests APIs and uses ML models to analyze logs & generate performance reports.',
+      image: Pro4,
+      tags: ['Team leader', 'React', 'Js', 'Python', 'TensorFlow', 'AI Engineer', 'Pitch'],
+      category: 'dev',
+    },
+    {
+      id: 5,
+      number: '07',
+      title: 'Huawei Cloud Accelerator',
+      description: 'Integrated Huawei Cloud services (storage, compute, deployment) to enhance scalability and performance.',
+      image: Pro5,
+      tags: ['Huawei Cloud', 'Pitch'],
+      category: 'event',
+    },
+    {
+      id: 6,
+      number: '08',
+      title: 'Startup Thailand League 2023',
+      description: 'Game project "Overlap" selected for Startup Thailand League, advanced to Demo Day at True Digital Park.',
+      image: Pro6,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
+      category: 'event',
+    },
+    {
+      id: 7,
+      number: '09',
+      title: 'ELP Pitch Program',
+      description: 'Selected as 1 of 35 participants for international exchange at NTUST, Taiwan. Pitched a tech startup concept and represented the university in the ELP entrepreneurship program.',
+      image: Pro7,
+      tags: ['ELP', 'Pitch', 'Startup', 'Tech Entrepreneurship', 'International Exchange'],
+      category: 'event',
+    },
+    {
+      id: 8,
+      number: '10',
+      title: 'Global Talent Entrepreneurship Program',
+      description: 'Participated in startup business development and investment strategy training at NTUST, Taiwan. Pitched a tech startup product to international judges and investors.',
+      image: Pro8,
+      tags: ['Team leader', 'Startup', 'Tech Entrepreneurship', 'Business Strategy', 'Pitch', 'International'],
+      category: 'event',
+    },
+    {
+      id: 9,
+      number: '11',
+      title: 'Project Lunar — NSC 2024',
+      description: 'NSC 2024 Entertainment Program entry highlighting Thai culture, cuisine, and Muay Thai boxing.',
+      image: Pro9,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
+      category: 'game',
+    },
+    {
+      id: 10,
+      number: '12',
+      title: 'P1 — Project Lunar',
+      description: 'Pitched Luna Game Project with marketing strategy and startup viability assessment.',
+      image: Pro10,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
+      category: 'event',
+    },
+    {
+      id: 11,
+      number: '13',
+      title: 'IDEA Pitch Day 1',
+      description: 'Presented Luna Game Project with business plan at IDEA Pitch Day.',
+      image: Pro11,
+      tags: ['Team leader', 'Pitch'],
+      category: 'event',
+    },
+    {
+      id: 12,
+      number: '14',
+      title: 'IDEA Pitch Day 2',
+      description: 'Presented an AI-powered pet health & behavior app integrated with a smart collar.',
+      image: Pro12,
+      tags: ['Team leader', 'Pitch'],
+      category: 'event',
+    },
+    {
+      id: 13,
+      number: '15',
+      title: 'Startup Training — Business Strategies',
+      description: 'Training on BMC, RoadMap, and Lean BMC for building scalable startup business models.',
+      image: Pro13,
+      tags: ['Team leader', 'Pitch'],
+      category: 'event',
+    },
+    {
+      id: 14,
+      number: '16',
+      title: 'Guest Speaker — Startup Knowledge Sharing',
+      description: 'Invited speaker sharing startup principles, project experience, and strategic guidance to students.',
+      image: Pro14,
+      tags: ['Guest Speaker', 'Pitch'],
+      category: 'event',
+    },
+    {
+      id: 15,
+      number: '17',
+      title: 'Luna Game Project',
+      description: 'Turn-based strategy game set in Thailand 2077, blending Muay Thai, Thai cuisine, and cultural heritage.',
+      image: Pro15,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      category: 'game',
+    },
+    {
+      id: 16,
+      number: '18',
+      title: 'ClipBoardPro — Clipboard Manager',
+      description: 'Desktop clipboard manager tracking copy history for effortless access to previous clips.',
+      image: Pro16,
+      tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js', 'Dev Ops'],
+      category: 'dev',
+    },
+    {
+      id: 17,
+      number: '19',
+      title: 'Phantom Drive — Thailand Horror Jam 2025',
+      description: 'Horror delivery-driving game created for Thailand Horror Jam 2025. Drive haunted roads from pickup to drop-off.',
+      image: Pro17,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      category: 'game',
+    },
+    {
+      id: 18,
+      number: '20',
+      title: '1 Ronin vs 1,000 Samurai — 20 Second Jam 2025',
+      description: 'Defeat 1,000 samurai in 20 seconds. Created for 20 Second Game Jam 2025.',
+      image: Pro18,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pixel Art'],
+      category: 'game',
+    },
+    {
+      id: 20,
+      number: '21',
+      title: 'Boba Tanuki — 20 Second Jam 2025',
+      description: 'Casual game with Classic (60s endless) and 20sec high-score modes. Created for 20sec Game Jam 2025.',
+      image: Pro20,
+      tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
+      category: 'game',
     },
   ];
+
+  const filtered = activeCategory === 'all'
+    ? projects
+    : projects.filter(p => p.category === activeCategory);
 
   return (
     <section id="work" className="work">
       <div className="work-container">
-        <h2 className="animate-in" style={{ animationDelay: '0.2s' }}>My Work</h2>
-        
+        <h2 className="animate-in" style={{ animationDelay: '0.2s' }}>My Project</h2>
+
+        <div className="category-tabs animate-in" style={{ animationDelay: '0.3s' }}>
+          {CATEGORIES.map(cat => (
+            <button
+              key={cat.key}
+              className={`category-tab${activeCategory === cat.key ? ' active' : ''}`}
+              onClick={() => setActiveCategory(cat.key)}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+
         <div className="projects-grid">
-          {projects.map(project => (
-            <ProjectCard 
-              key={project.id}
-              project={project}
-            />
+          {filtered.map(project => (
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>

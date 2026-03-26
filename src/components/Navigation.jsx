@@ -87,7 +87,7 @@ const Navigation = () => {
             href="#work" 
             className={activeSection === 'work' ? 'active' : ''}
           >
-            <span>Work</span>
+            <span>Project</span>
           </a>
           <a 
             href="#contact" 
@@ -133,8 +133,8 @@ const Navigation = () => {
           onClick={toggleMenu} 
           className={activeSection === 'work' ? 'active' : ''}
         >
-          Work
-        </a>
+          Project
+</a>
         <a 
           href="#contact" 
           onClick={toggleMenu} 
