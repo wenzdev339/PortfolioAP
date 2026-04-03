@@ -59,7 +59,7 @@ const Work = () => {
     {
       id: 1,
       number: '03',
-      title: 'Aliment Puzzle Game — NSC 2020',
+      title: 'Aliment Puzzle Game NSC 2020',
       description: 'Science & math puzzle game that reached the final round of the Entertainment Program in NSC 2020.',
       image: Pro1,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
@@ -78,7 +78,7 @@ const Work = () => {
     {
       id: 3,
       number: '05',
-      title: 'Survey Share — Internship',
+      title: 'Survey Share Internship',
       description: 'Frontend built with Flutter/Dart during internship at X-TenTech. Integrated Google Drive API & OAuth for secure file sharing.',
       image: Pro3,
       tags: ['Frontend', 'Flutter', 'Dart', 'Google Console API', 'Internship'],
@@ -87,7 +87,7 @@ const Work = () => {
     {
       id: 4,
       number: '06',
-      title: 'API Tester Tool with ML — Hackathon',
+      title: 'API Tester Tool with ML Hackathon',
       description: 'Full-stack tool that tests APIs and uses ML models to analyze logs & generate performance reports.',
       image: Pro4,
       tags: ['Team leader', 'React', 'Js', 'Python', 'TensorFlow', 'AI Engineer', 'Pitch'],
@@ -132,7 +132,7 @@ const Work = () => {
     {
       id: 9,
       number: '11',
-      title: 'Project Lunar — NSC 2024',
+      title: 'Project Lunar NSC 2024',
       description: 'NSC 2024 Entertainment Program entry highlighting Thai culture, cuisine, and Muay Thai boxing.',
       image: Pro9,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
@@ -141,7 +141,7 @@ const Work = () => {
     {
       id: 10,
       number: '12',
-      title: 'P1 — Project Lunar',
+      title: 'P1 Project Lunar',
       description: 'Pitched Luna Game Project with marketing strategy and startup viability assessment.',
       image: Pro10,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pitch'],
@@ -168,7 +168,7 @@ const Work = () => {
     {
       id: 13,
       number: '15',
-      title: 'Startup Training — Business Strategies',
+      title: 'Startup Training Business Strategies',
       description: 'Training on BMC, RoadMap, and Lean BMC for building scalable startup business models.',
       image: Pro13,
       tags: ['Team leader', 'Pitch'],
@@ -177,7 +177,7 @@ const Work = () => {
     {
       id: 14,
       number: '16',
-      title: 'Guest Speaker — Startup Knowledge Sharing',
+      title: 'Guest Speaker Startup Knowledge Sharing',
       description: 'Invited speaker sharing startup principles, project experience, and strategic guidance to students.',
       image: Pro14,
       tags: ['Guest Speaker', 'Pitch'],
@@ -195,7 +195,7 @@ const Work = () => {
     {
       id: 16,
       number: '18',
-      title: 'ClipBoardPro — Clipboard Manager',
+      title: 'ClipBoardPro Clipboard Manager',
       description: 'Desktop clipboard manager tracking copy history for effortless access to previous clips.',
       image: Pro16,
       tags: ['Team leader', 'React', 'Electron Framework', 'UI/UX Design', 'Js', 'Dev Ops'],
@@ -204,7 +204,7 @@ const Work = () => {
     {
       id: 17,
       number: '19',
-      title: 'Phantom Drive — Thailand Horror Jam 2025',
+      title: 'Phantom Drive Thailand Horror Jam 2025',
       description: 'Horror delivery-driving game created for Thailand Horror Jam 2025. Drive haunted roads from pickup to drop-off.',
       image: Pro17,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
@@ -213,7 +213,7 @@ const Work = () => {
     {
       id: 18,
       number: '20',
-      title: '1 Ronin vs 1,000 Samurai — 20 Second Jam 2025',
+      title: '1 Ronin vs 1,000 Samurai 20 Second Jam 2025',
       description: 'Defeat 1,000 samurai in 20 seconds. Created for 20 Second Game Jam 2025.',
       image: Pro18,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design', 'Pixel Art'],
@@ -222,7 +222,7 @@ const Work = () => {
     {
       id: 20,
       number: '21',
-      title: 'Boba Tanuki — 20 Second Jam 2025',
+      title: 'Boba Tanuki 20 Second Jam 2025',
       description: 'Casual game with Classic (60s endless) and 20sec high-score modes. Created for 20sec Game Jam 2025.',
       image: Pro20,
       tags: ['Team leader', 'Unity Engine', 'C#', 'UI/UX Design'],
