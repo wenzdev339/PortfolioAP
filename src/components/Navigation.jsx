@@ -13,7 +13,7 @@ const Navigation = () => {
       setScrolled(window.scrollY > 50);
       
       // Highlight active section
-      const sections = ['home', 'about', 'education', 'skills', 'work', 'contact']; // Added 'education'
+      const sections = ['home', 'about', 'education', 'experience', 'skills', 'work', 'contact'];
       const scrollPosition = window.scrollY;
       
       for (const section of sections) {
@@ -77,8 +77,14 @@ const Navigation = () => {
           >
             <span>Education</span>
           </a>
-          <a 
-            href="#skills" 
+          <a
+            href="#experience"
+            className={activeSection === 'experience' ? 'active' : ''}
+          >
+            <span>Experience</span>
+          </a>
+          <a
+            href="#skills"
             className={activeSection === 'skills' ? 'active' : ''}
           >
             <span>Skills</span>
@@ -121,9 +127,16 @@ const Navigation = () => {
         >
           Education
         </a>
-        <a 
-          href="#skills" 
-          onClick={toggleMenu} 
+        <a
+          href="#experience"
+          onClick={toggleMenu}
+          className={activeSection === 'experience' ? 'active' : ''}
+        >
+          Experience
+        </a>
+        <a
+          href="#skills"
+          onClick={toggleMenu}
           className={activeSection === 'skills' ? 'active' : ''}
         >
           Skills
