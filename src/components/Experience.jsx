@@ -6,16 +6,6 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      role: 'BPM / Business Intelligence Developer',
-      company: 'CP-MEIJI',
-      location: 'Saraburi, Thailand',
-      period: 'May 2026 - Present',
-      type: 'Full-time',
-      description: 'Developing and maintaining Business Process Management and Business Intelligence solutions to support data-driven decision making.',
-      tags: ['BPM', 'Business Intelligence', 'Data Analysis'],
-    },
-    {
-      id: 2,
       role: 'Intern Frontend Developer (Flutter)',
       company: 'XTEN-Technology',
       location: 'Bangkok, Thailand',
